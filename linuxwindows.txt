@@ -1,0 +1,32 @@
+Soal:
+1.  apa perbedaan file system Linux dan Windows?
+2. Berikan gambar struktur file system Linux dan Windows?
+3. apa yang dimaksud direktori, folder, dan file?
+4. Sebutkan 5 file extension dan jelaskan?
+5. sebutkan masing-masing 5 perintah mengakses file di Linux dan Windows?
+6. Apa perbedaaan terminal dan command prompt?
+Jawaban:
+1. Perbedaan utama terletak pada struktur file: Linux menggunakan satu pohon hierarkis yang dimulai dari direktori akar (\(/\)) di mana semua perangkat dan file adalah file, sedangkan Windows menggunakan struktur yang terpisah untuk setiap drive (C:, D:, dll.). Perbedaan lain meliputi sistem file yang umum digunakan (NTFS/FAT32 di Windows, ext/JFS di Linux) dan sensitivitas huruf besar-kecil: Linux sensitif huruf besar-kecil, sedangkan Windows tidak. 
+2.  Linux
+ 
+Windows
+ 
+3. Direktori dan folder adalah dua istilah untuk wadah penyimpanan file yang dapat menampung file dan subfolder (folder di dalam folder), sementara file adalah unit dasar penyimpanan data di komputer (seperti dokumen, gambar, atau musik). 
+4. .docx: Format dokumen yang digunakan oleh Microsoft Word, dapat berisi teks, gambar, tabel, dan elemen lainnya.
+.jpg/.jpeg: Format gambar yang populer dan sering digunakan, cocok untuk menyimpan gambar dengan kualitas tinggi namun ukuran yang relatif kecil.
+.mp3: Format file audio yang umum digunakan untuk menyimpan musik dan suara, dengan kompresi yang efisien.
+.pdf: Singkatan dari "Portable Document Format," file ini dirancang untuk menampilkan dokumen secara konsisten di berbagai sistem operasi dan perangkat, sering digunakan untuk dokumen resmi atau yang perlu dibagikan.
+.pptx: Format file yang digunakan oleh Microsoft PowerPoint untuk menyimpan presentasi yang berisi slide, teks, dan elemen visual lainnya. 
+5. Linux (Terminal)
+1.ls: Menampilkan daftar file dan direktori dalam direktori saat ini.
+2. cd <direktori>: Berpindah ke direktori tertentu. Contoh: cd Documents.
+3. cat <namafile>: Menampilkan seluruh isi file teks langsung di terminal.
+4. cp <file_sumber> <file_tujuan>: Menyalin file dari satu lokasi ke lokasi lain.
+5. mv <file_sumber> <file_tujuan>: Memindahkan file (atau mengganti nama file jika di lokasi yang sama).  
+Windows (Command Prompt/CMD) 
+1. dir: Menampilkan daftar file dan subdirektori dalam direktori saat ini.
+2. cd <direktori>: Berpindah ke direktori tertentu. Contoh: cd Documents.
+3. type <namafile>: Menampilkan isi dari file teks.
+4. copy <file_sumber> <file_tujuan>: Menyalin satu atau lebih file ke lokasi lain.
+5. move <file_sumber> <file_tujuan>: Memindahkan file ke lokasi lain. 
+6. Perbedaan utama adalah CMD adalah antarmuka baris perintah (CLI) spesifik untuk Windows (\(cmd.exe\)), sementara Terminal adalah istilah yang lebih luas untuk program grafis yang menyediakan jendela tempat Anda dapat menjalankan shell (seperti bash atau zsh di macOS/Linux). CMD adalah jenis shell, sedangkan Terminal adalah program klien yang menampilkan output dari shell. 
